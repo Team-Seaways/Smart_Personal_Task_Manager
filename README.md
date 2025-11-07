@@ -13,15 +13,6 @@ This branch contains the official documentation for the **Smart Personal Task Ma
 _Currently, this branch includes:_  
 ✅ **CSE443 - RAD_TeamSeaways Requirements Analysis Document**
 
-As the project progresses, this branch will be updated with additional documentation, including:
-- System Design Documents
-- UML Diagrams
-- Test Plans
-- User Manuals
-- Presentation Files
-
-Each version will include issue numbers and update dates for traceability.
-
 ---
 
 ## 📝 Purpose of This Branch
