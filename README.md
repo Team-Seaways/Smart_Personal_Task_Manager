@@ -89,18 +89,12 @@ All modeling artifacts are included in the project’s documentation branch.
 
 | Name |
 |------|
-| Yavuz Selman Haltaş |
-| Ünal Sarıemir |
-| Yusuf Alperen Dönmez |
-| Emre Can Tuncer |
-| Alperen Özdelen |
-|
-|
-|
-|
-|
+| [Yavuz Selman Haltaş](https://github.com/Failk) |
+| [Ünal Sarıemir](https://github.com/unalsrmr) |
+| [Yusuf Alperen Dönmez](https://github.com/YusufAlperenDonmez) |
+| [Emre Can Tuncer](https://github.com/ectdev) |
+| [Alperen Özdelen](https://github.com/AlperenOzdelen) |
 
-(Add roles, IDs, or GitHub profiles later)
 
 ---
 
