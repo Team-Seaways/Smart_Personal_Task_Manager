@@ -36,48 +36,6 @@ The system covers:
 
 ---
 
-## ✅ Functional Requirements Overview
-
-The system includes (but is not limited to) the following capabilities:
-
-- Create, view, update, delete projects
-- Create both one-time and recurring tasks
-- Modify and skip specific recurring occurrences
-- Task status transitions (Not Started / In Progress / Completed / Deferred)
-- Calendar-based task visualization
-- Reminders for upcoming and overdue tasks
-- Search and filter tasks by:
-  - Priority
-  - Project
-  - Status
-  - Context
-  - Date range
-- Reporting:
-  - Completion rate statistics
-  - Priority distribution
-  - Productivity insights
-- Data export and import
-- Automatic data saving and audit trail tracking
-
-> All full functional and non-functional requirements are documented in the Requirements Analysis Document.
-
----
-
-## 🌍 System Models
-
-The system design includes:
-
-- Scenarios demonstrating user interactions
-- Use Case Model and detailed use cases
-- Object Model following structured domain entities
-- Dynamic Models (sequence, state, and activity diagrams)
-- User Interface Mock-ups and layout descriptions
-- Glossary and requirement traceability documentation
-
-All modeling artifacts are included in the project’s documentation branch.
-
----
-
 ## 📄 Documentation
 
 📌 Full Requirements Analysis Document + UML diagrams + scenarios can be found under:  
