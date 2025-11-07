@@ -1,6 +1,6 @@
 # 📁 Documents — Smart Personal Task Manager (SPTM)
 
-This branch contains the official documentation for the **Smart Personal Task Manager (SPTM)** project, developed for the **CSE443 – Object Oriented Analysis and Designt** course.
+This branch contains the official documentation for the **Smart Personal Task Manager (SPTM)** project, developed for the **CSE443 – Object Oriented Analysis and Design** course.
 
 ---
 
