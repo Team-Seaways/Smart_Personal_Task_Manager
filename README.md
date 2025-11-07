@@ -44,18 +44,6 @@ All PDF / DOCX / diagram files will be stored and maintained here to support:
 
 ---
 
-## 👥 Contributors
-
-Documentation prepared by:
-
-- Yavuz Selman Haltaş
-- Ünal Sarıemir
-- Yusuf Alperen Dönmez
-- Emre Can Tuncer
-- Alperen Özdelen
-
-(Click-through GitHub profile links will be added later)
-
 ---
 
 > This branch is dedicated to all written and visual artifacts supporting the Smart Personal Task Manager system.
