@@ -53,18 +53,4 @@ The system covers:
 | [Emre Can Tuncer](https://github.com/ectdev) |
 | [Alperen Özdelen](https://github.com/AlperenOzdelen) |
 
-
----
-
-## 🔎 Project Success Criteria
-
-The system will be considered successful when:
-
-- Users can efficiently manage tasks with improved prioritization
-- Calendar visualizations support clear planning and workload control
-- Reminder and recurring task behaviors function accurately
-- Users experience enhanced productivity through structure, insights, and usability
-
----
-
 > 📌 SPTM focuses on delivering a meaningful and structured productivity experience aligned with time-management principles, without overwhelming the user.
