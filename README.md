@@ -1,75 +1,91 @@
 # 🧠 Smart Personal Task Manager (SPTM)
 
-A modern full-stack task management system designed to improve productivity by applying **Franklin Covey’s priority-based model**. It provides advanced features such as recurring tasks, calendar visualization, intelligent reminders, and analytics — all within a responsive and intuitive web interface.
+Smart Personal Task Manager is a task management system designed to improve productivity using the **Franklin Covey** priority-based methodology. The system provides structured task handling with prioritization, recurring task automation, calendar visualization, and reminder support to enhance both personal and professional organization.
 
-This project is developed as part of **CSE443 - Rapid Application Development** course.
-
----
-
-## 📌 Purpose & Scope
-
-SPTM transforms a traditional to-do list into a dynamic productivity platform with:
-
-- ✅ Project-based task organization
-- ✅ A/B/C/D **priority classification** (Franklin Covey Method)
-- ✅ **Recurring task** automation (daily/weekly/monthly/custom)
-- ✅ **Real-time reminders** (Email + In-App notifications)
-- ✅ Calendar views (Daily / Weekly / Monthly)
-- ✅ Advanced search & filtering
-- ✅ Productivity analytics and reports
-
-The system aims to support both **personal and professional** workload management with intelligent automation and visual clarity.
+This project is developed for the **CSE443 – Rapid Application Development** course.
 
 ---
 
-## ✨ Key Features
+## 🎯 Purpose of the System
 
-| Module | Capabilities |
-|--------|--------------|
-| ✔ User Management | Registration, login, JWT authentication, profile editing |
-| ✔ Project Management | Create, update, delete, archive, completion stats |
-| ✔ Task Management | CRUD tasks with description, priority, context, reminders, status tracking |
-| ✔ Recurring Tasks | Custom recurrence patterns, editable instances |
-| ✔ Calendar Views | Drag & drop scheduling, color-coded priorities |
-| ✔ Notifications | Email & popup reminders, snooze, overdue alerts |
-| ✔ Search & Filter | Priority, status, context, project, date range |
-| ✔ Data Export | JSON export & import support |
-| ✔ Progress Tracking | Statistics, charts & completion history |
+To transform traditional to-do lists into a dynamic and intelligent task organization experience by:
+
+- Providing advanced task features including priority levels, recurrence options, and contextual tagging
+- Delivering timely reminders and visual calendars for schedule awareness
+- Improving productivity through structured workflow and analysis
+- Ensuring users can easily organize tasks under projects with clear hierarchical structure
 
 ---
 
-## 🏗️ System Architecture
+## 📌 Scope of the System
 
-| Layer | Technology |
-|------|------------|
-| Frontend (SPA) | React 18 + TypeScript |
-| Backend (API) | Java 17 + Spring Boot 3 |
-| Database | PostgreSQL 15 |
-| Authentication | JWT Security |
-| Notifications | Email + WebSocket |
-| Deployment | Docker & Maven packages |
-| Design Patterns | Strategy, Observer, Factory, Repository, MVC |
+The system covers:
+
+- User authentication and profile management
+- Project-based task organization
+- Task creation with:
+  - Deadlines
+  - **Priority A/B/C/D levels**
+  - Context tags
+  - Recurring scheduling options
+- Calendar views (daily, weekly, monthly)
+- Intelligent reminder notifications (email + in-app)
+- Task filtering, sorting, and searching
+- Data persistence, history, and progress tracking
+- Support for personal and professional usage scenarios
 
 ---
 
-## 📂 Branch Strategy
+## ✅ Functional Requirements Overview
 
-| Branch | Description |
-|--------|-------------|
-| `main` | Stable releases only |
-| `development` | Feature integration branch |
-| `documents` | Requirement docs, reports, UML, presentations (already exists ✅) |
-| `feature/<name>` | One feature per branch |
-| `hotfix/<name>` | Production fixes |
+The system includes (but is not limited to) the following capabilities:
 
-> PRs must target **development branch** ✅  
-> All documentation → **documents branch** ✅
+- Create, view, update, delete projects
+- Create both one-time and recurring tasks
+- Modify and skip specific recurring occurrences
+- Task status transitions (Not Started / In Progress / Completed / Deferred)
+- Calendar-based task visualization
+- Reminders for upcoming and overdue tasks
+- Search and filter tasks by:
+  - Priority
+  - Project
+  - Status
+  - Context
+  - Date range
+- Reporting:
+  - Completion rate statistics
+  - Priority distribution
+  - Productivity insights
+- Data export and import
+- Automatic data saving and audit trail tracking
+
+> All full functional and non-functional requirements are documented in the Requirements Analysis Document.
+
+---
+
+## 🌍 System Models
+
+The system design includes:
+
+- Scenarios demonstrating user interactions
+- Use Case Model and detailed use cases
+- Object Model following structured domain entities
+- Dynamic Models (sequence, state, and activity diagrams)
+- User Interface Mock-ups and layout descriptions
+- Glossary and requirement traceability documentation
+
+All modeling artifacts are included in the project’s documentation branch.
+
+---
+
+## 📄 Documentation
+
+📌 Full Requirements Analysis Document + UML diagrams + scenarios can be found under:  
+**`documents`** branch of the repository.
 
 ---
 
 ## 👥 Contributors
-
-(Add GitHub profile links later)
 
 | Name |
 |------|
@@ -84,20 +100,19 @@ The system aims to support both **personal and professional** workload managemen
 |
 |
 
-(You asked for blank lines — feel free to fill them with IDs or roles later)
+(Add roles, IDs, or GitHub profiles later)
 
 ---
 
-## 🚀 Getting Started
+## 🔎 Project Success Criteria
 
-### ✅ Prerequisites
-- Java 17+
-- Node.js + npm/yarn
-- PostgreSQL installed
-- Maven installed
+The system will be considered successful when:
 
-### 🔧 Backend Setup
-```bash
-cd backend
-mvn clean install
-mvn spring-boot:run
+- Users can efficiently manage tasks with improved prioritization
+- Calendar visualizations support clear planning and workload control
+- Reminder and recurring task behaviors function accurately
+- Users experience enhanced productivity through structure, insights, and usability
+
+---
+
+> 📌 SPTM focuses on delivering a meaningful and structured productivity experience aligned with time-management principles, without overwhelming the user.
